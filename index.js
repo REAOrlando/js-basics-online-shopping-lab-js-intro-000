@@ -74,7 +74,7 @@ function removeFromCart(item) {
 
        }
 
-     
+
      if (check == false ) {
        console.log(notInCart);
 }
