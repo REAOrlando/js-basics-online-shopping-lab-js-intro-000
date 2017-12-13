@@ -75,7 +75,7 @@ function removeFromCart(item) {
          console.log(notInCart);
        }
      }
-     
+
 }
 
 //
