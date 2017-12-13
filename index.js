@@ -71,10 +71,12 @@ function removeFromCart(item) {
        } else {
          notInCart = "That item is not in your cart.";
        }
-       if (check == false ) {
-         console.log(notInCart);
+       
        }
+    
      }
+     if (check == false ) {
+       console.log(notInCart);
 
 }
 
