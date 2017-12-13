@@ -61,7 +61,7 @@ function total() {
 
 function removeFromCart(item) {
   var notInCart = ""
-  var check = false
+  var check = ""
 
      for (var i = 0; i < cart.length; i ++) {
        if (cart[i].hasOwnProperty(item)) {
@@ -69,15 +69,15 @@ function removeFromCart(item) {
          check = true
          return cart;
        } else {
+         check = false;
          notInCart = "That item is not in your cart.";
        }
 
        }
 
-
      if (check == false ) {
        console.log(notInCart);
-}
+     }
 }
 
 //
